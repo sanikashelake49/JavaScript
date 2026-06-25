@@ -1,0 +1,17 @@
+ body{
+    position: relative;
+    background-color: aqua;
+}
+
+ 
+#dance{
+    margin: 30px;
+}
+
+#bigImage{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

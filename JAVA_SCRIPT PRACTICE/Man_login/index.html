@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Login Animation</title>
+
+  <!-- MODEL VIEWER -->
+  <script type="module"
+  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="bg"></div>
+
+  <!-- PERSON WALKING -->
+  <div id="person1" class="person">
+
+    <model-viewer
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      camera-controls
+      disable-zoom
+      autoplay>
+    </model-viewer>
+
+  </div>
+
+  <!-- PERSON WAVE -->
+  <div id="person2" class="person hide">
+
+    <model-viewer
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      camera-controls
+      disable-zoom
+      autoplay>
+    </model-viewer>
+
+  </div>
+
+  <!-- PERSON OPEN BAG -->
+  <div id="person3" class="person hide">
+
+    <model-viewer
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      camera-controls
+      disable-zoom
+      autoplay>
+    </model-viewer>
+
+  </div>
+
+  <!-- HEY MESSAGE -->
+  <div id="hey">Hey! 👋</div>
+
+  <!-- BAG -->
+  <div id="bag">
+
+    <div class="bag-top"></div>
+
+    <div class="light"></div>
+
+  </div>
+
+  <!-- LOGIN BOX -->
+  <div id="loginBox">
+
+    <div class="icon">🔒</div>
+
+    <h1>Welcome Back</h1>
+
+    <p>Please login to continue</p>
+
+    <input type="text" placeholder="Enter Name">
+
+    <input type="email" placeholder="Enter Email">
+
+    <input type="password" placeholder="Enter Password">
+
+    <input type="text" placeholder="Enter City">
+
+    <button>Login</button>
+
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

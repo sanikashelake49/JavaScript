@@ -6,7 +6,7 @@ function calculate(operator){
 
     let result;
 
-    switch(operator){
+    switch(operator){ 
 
         case "+": result = n1 + n2;
                   break;

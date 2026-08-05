@@ -13,7 +13,7 @@ function play(cell){
 
     if(currentPlayer == "X"){
         currentPlayer = "O";
-    }
+    } 
     else{
         currentPlayer = "X";
     }

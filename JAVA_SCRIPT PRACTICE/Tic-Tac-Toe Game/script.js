@@ -5,7 +5,7 @@ function play(cell){
 
     if(cell.innerHTML != "" || gameOver){
         return;
-    }
+    } 
 
     cell.innerHTML = currentPlayer;
 
@@ -13,7 +13,7 @@ function play(cell){
 
     if(currentPlayer == "X"){
         currentPlayer = "O";
-    }
+    } 
     else{
         currentPlayer = "X";
     }

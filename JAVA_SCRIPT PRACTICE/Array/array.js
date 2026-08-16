@@ -2,10 +2,11 @@ let product=["Bloomberg","Microsoft","Uber","Google","IBM","Om"];
 //product.shift(1);
     
    
-      
        
               
         
+            
+         
 
 //discount   
 // let item=[250,645,300,900,50]; 

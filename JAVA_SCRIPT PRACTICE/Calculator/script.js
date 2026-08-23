@@ -4,7 +4,7 @@ function calculate(operator){
 
     let n2 = Number(document.getElementById("num2").value);
 
-    let result;
+    let result; 
 
     switch(operator){ 
 
